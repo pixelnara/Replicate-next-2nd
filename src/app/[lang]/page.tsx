@@ -46,11 +46,11 @@ export default async function HomePage({ params }: PageProps) {
       {/* Hero Banner */}
       <div className="relative h-screen w-full overflow-hidden border-b border-black">
         <img
-          src="https://images.unsplash.com/photo-1602479185195-32f5cd203559?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxrb3JlYSUyMHNlb3VsJTIwdHJhZGl0aW9uYWwlMjBwYWxhY2UlMjBhcmNoaXRlY3R1cmV8ZW58MXx8fHwxNzgwNDczOTgxfDA&ixlib=rb-4.1.0&q=80&w=1080"
+          src="/gung.jpeg"
           alt="Korean traditional palace"
-          className="absolute inset-0 w-full h-full object-cover"
+          style={{ position: "absolute", inset: 0, width: "100%", height: "100%", objectFit: "cover" }}
         />
-        <div className="absolute inset-0 bg-opacity-20"></div>
+        <div style={{ position: "absolute", inset: 0, backgroundColor: "rgba(0,0,0,0.3)" }}></div>
         <div
           className="relative h-full flex items-center justify-center text-center text-white"
           style={{ fontFamily: 'Optima, Candara, "Noto Sans", source-sans-pro, sans-serif' }}
