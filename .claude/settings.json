@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(rtk ls *)",
+      "Bash(git -C /Users/sujinhwang/Documents/1.Develop/5.FIGMA-MAKE/K-Medi-2-next-a remote -v)",
+      "Bash(rtk curl *)",
+      "Bash(git -C /Users/sujinhwang/Documents/1.Develop/5.FIGMA-MAKE/K-Medi-2-next-a rev-parse --git-dir)",
+      "Bash(git rm *)",
+      "Bash(git reset *)",
+      "Bash(rm -rf *)"
+    ],
+    "additionalDirectories": [
+      "/Users/sujinhwang/Documents/1.Develop/5.FIGMA-MAKE/K-Medi-2-next-a/.git"
+    ]
+  }
+}
